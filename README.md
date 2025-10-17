@@ -15,15 +15,12 @@ Using the np.linalg.matrix_rank(), we can find the inverse of the given matrix
 End the program
 
 ## Program:
-```python
+```
 
-#Program to find the inverse of a matrix.
-#Developed by: HIRUTHIK SUDHAKAR
-#RegisterNumber:212223240054
 import numpy as np
-A = [[6,2,3],[3,1,1],[10,3,4]]
-B = np.linalg.inv(A)
-print(B)
+a=np.array([[2,1,1],[1,1,1],[1,-1,2]])
+b=np.linalg.inv(a)
+print(b)
 
 
 
@@ -32,7 +29,8 @@ print(B)
 
 ## Output:
 
-![alt text](image.png)
+<img width="1085" height="965" alt="image" src="https://github.com/user-attachments/assets/3aad3838-832b-43a5-a33f-4df2e3e434c0" />
+
 ## Result:
 Thus the inverse of given matrix is successfully solved using python program
 
